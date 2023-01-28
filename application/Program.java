@@ -57,7 +57,7 @@ public class Program {
 		
 		System.out.println("Nome: " + funcionario.getNome());
 		System.out.println("Departamento: " + funcionario.getDepartamento().getNome());
-		System.out.printf("Recebido em %s: %d\n", mesAno, String.format("%.2f", funcionario.recebido(ano, mes)));
+		System.out.printf("Recebido em %s: R$%.2f\n", mesAno, funcionario.recebido(ano, mes));
 		
 		
 		
